@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f9;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-heading {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Navigation on the Right */
+.navigation-container {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation-container a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-container a:hover {
+  background-color: #007bff;
+  color: white;
+}
