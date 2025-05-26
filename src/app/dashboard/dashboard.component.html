@@ -42,13 +42,13 @@
                 <p><b>Status: </b>{{ task.status }}</p>
                 <div class="task-action-icons">
                     <button class="task-action-btn" title="Detail" (click)="showCurrentTaskDetails(task.id)">
-                       Details
+                        <i class="fa fa-info-circle" aria-hidden="true"></i>
                     </button>
                     <button class="task-action-btn" title="Edit" (click)="OnEditTaskClicked(task.id)">
-                       Edit
+                         <i class="fas fa-edit"></i>
                     </button>
                     <button class="task-action-btn" title="Delete" (click)="DeleteTask(task.id)">
-                       Delete
+                        <i class="fa fa-trash" aria-hidden="true"></i>
                     </button>            
                 </div>
             </div>
