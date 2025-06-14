@@ -15,4 +15,6 @@ export class TaskDetailsComponent {
   OnCloseTaskDetail(){
     this.CloseDetailView.emit(false);
   }
+
+  
 }
